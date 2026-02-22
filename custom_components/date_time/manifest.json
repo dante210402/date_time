@@ -1,0 +1,12 @@
+{
+  "domain": "date_time",
+  "name": "日期和时间",
+  "version": "0.9.0",
+  "icon": "",
+  "config_flow": true,
+  "issue_tracker": "https://github.com/dante210402/date_time/issues",
+  "documentation": "https://github.com/dante210402/date_time",
+  "requirements": ["lunar_python"],
+  "dependencies": [],
+  "codeowners": ["@dante210402"]
+}

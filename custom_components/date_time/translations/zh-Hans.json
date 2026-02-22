@@ -1,0 +1,56 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "添加纪念日/生日",
+        "description": "请填写纪念日或生日的详细信息，日期需按指定格式输入",
+        "data": {
+          "anniversary_name": "纪念日/生日名称",
+          "date_type": "日期类型",
+          "anniversary_type": "纪念类型",
+          "anniversary_date": "纪念日/生日日期"
+        },
+        "description_placeholders": {
+          "date_format_example": "示例：20231001（表示2023年10月1日）"
+        }
+      },
+      "confirm_add": {
+        "title": "确认是否继续添加",
+        "description": "{hint}",
+        "data": {
+          "continue_add": "是否继续添加下一个纪念日/生日？"
+        },
+        "description_placeholders": {
+          "current_count": "已添加数量",
+          "hint": "已添加{current_count}个纪念日/生日，是否继续添加下一个？"
+        }
+      }
+    },
+    "error": {
+      "base": {
+        "date_format_invalid": "日期必须是8位数字（仅包含0-9）",
+        "solar_date_invalid": "阳历日期不合法（如月份超出1-12、日期超出当月天数）",
+        "lunar_date_invalid": "阴历日期格式错误（如不存在该阴历日期、闰月格式不正确）",
+        "name_length_invalid": "请输入纪念日/生日名称（可不写纪念日/生日几个字）",
+        "date_length_invalid": "日期必须是8位数字"
+      }
+    },
+    "create_entry": {
+      "title": "纪念日/生日组（共{count}个）"
+    }
+  },
+  "options": {},
+  "entity": {},
+  "strings": {
+    "domain": "日期和时间传感器",
+    "config_entry_title": "纪念日/生日组（共{count}个）",
+    "date_type_options": {
+      "solar": "阳历",
+      "lunar": "阴历"
+    },
+    "anniversary_type_options": {
+      "birthday": "生日",
+      "anniversary": "纪念日"
+    }
+  }
+}
